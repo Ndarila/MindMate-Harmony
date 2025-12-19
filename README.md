@@ -9,39 +9,31 @@ Built using **Jac’s object–spatial programming model**, MindMate Harmony dem
 ## ✨ Key Features
 
 ### 🔧 Backend (Jac Core)
-- Graph-based modeling of:
-  - Users
-  - Moods
-  - Emotions
-  - Triggers
-  - Journal entries
-  - Suggestions
-- Walkers handle:
-  - User login & session flow
-  - Mood logging with trigger relationships
-  - Secure journal entry creation
-  - Mood trend analysis
-  - Emotion–trigger graph generation
-- 🤖 AI-powered supportive advice using `by llm()` functions
-- Clean separation of concerns:
-  - `backend.jac` → server coordination
-  - `api.jac` → API walker logic
+- **Graph-based modeling of:**
+  - Users, Moods, Emotions, Triggers, Journal entries, and Suggestions.
+- **Walkers handle:**
+  - User login & session flow.
+  - Mood logging with trigger relationships.
+  - Secure journal entry creation.
+  - Mood trend analysis.
+  - Emotion–trigger graph generation.
+- 🤖 **AI-powered supportive advice** using `by llm()` functions.
+- **Clean separation of concerns:**
+  - `backend.jac` → server coordination.
+  - `api.jac` → API walker logic.
 
 ---
 
 ### 🎨 Frontend (jac-client)
-- Interactive UI walkers built with **jac-client**
-- Supports:
-  - Mood logging (emoji / text–ready design)
-  - Secure personal journaling
-  - Insights timeline
-- Visualizes:
-  - Mood frequency
-  - Trigger influence
-  - Emotional trends over time
-- Delivers:
-  - Real-time supportive tips
-  - Weekly emotional wellness plans
+- Interactive UI walkers built with **jac-client**.
+- **Supports:**
+  - Mood logging (emoji / text–ready design).
+  - Secure personal journaling.
+  - Insights timeline.
+- **Visualizes:**
+  - Mood frequency, Trigger influence, and Emotional trends over time.
+- **Delivers:**
+  - Real-time supportive tips and weekly emotional wellness plans.
 
 ---
 
@@ -49,137 +41,94 @@ Built using **Jac’s object–spatial programming model**, MindMate Harmony dem
 
 ```text
 MindMate-Harmony/
-├── main.jac               # Application entry point
+├── main.jac                # Application entry point
 ├── backend/
-│   ├── backend.jac        # Backend startup & coordination
-│   └── api.jac            # API walker implementations
+│   ├── backend.jac         # Backend startup & coordination
+│   └── api.jac             # API walker implementations
 ├── frontend/
-│   ├── frontend.jac       # Frontend UI walker
-│   └── ui.jac             # UI components & interactions
+│   ├── frontend.jac        # Frontend UI walker
+│   └── ui.jac              # UI components & interactions
 ├── models/
-│   ├── user.jac           # User node
-│   ├── mood.jac           # Mood node
-│   ├── journal.jac        # Journal entry node
-│   ├── emotion.jac        # Emotion node
-│   ├── trigger.jac        # Trigger node
-│   └── suggestion.jac     # Suggestion node
+│   ├── user.jac            # User node
+│   ├── mood.jac            # Mood node
+│   ├── journal.jac         # Journal entry node
+│   ├── emotion.jac         # Emotion node
+│   ├── trigger.jac         # Trigger node
+│   └── suggestion.jac      # Suggestion node
 ├── utility/
-│   ├── helpers.jac        # Helper functions
-│   └── constants.jac      # Application constants
-└── README.md              # Project documentation
+│   ├── helpers.jac         # Helper functions
+│   └── constants.jac       # Application constants
+└── README.md               # Project documentation```
 
 ---
 
 ## 🚀 Getting Started
 1️⃣ Clone the Repository
-bash
-Copy code
-git clone https://github.com/Ndarila/MindMate-Harmony.git
+Bash
+
+git clone [https://github.com/Ndarila/MindMate-Harmony.git](https://github.com/Ndarila/MindMate-Harmony.git)
 cd MindMate-Harmony
 2️⃣ Install Jac
 Follow the official Jac documentation to set up your Jac environment.
 
 3️⃣ Run the Application
-bash
-Copy code
+Bash
+
 jac run main.jac
 ✔️ This launches both the backend server and the frontend UI walkers.
 
 ---
 
 ## 🧭 Usage Guide
-Log moods and emotional intensity
+Log moods and emotional intensity.
 
-Add private journal entries
+Add private journal entries.
 
-Receive AI-generated supportive advice
+Receive AI-generated supportive advice.
 
-View mood trends and trigger insights
+View mood trends and trigger insights.
 
-Get real-time tips and weekly emotional plans
+Get real-time tips and weekly emotional plans.
 
 ---
 
 ## 🧩 Core Concepts Used
-### 🔹 Nodes
-Core graph entities:
+🔹 Nodes (Core Graph Entities)
+User, Mood, JournalEntry, Emotion, Trigger, Suggestion.
 
-User
+🔹 Walkers (Logic & Flow)
+Authentication: User login and security.
 
-Mood
+Data Entry: Mood logging and journaling.
 
-JournalEntry
+Intelligence: Advice generation and trend analysis.
 
-Emotion
+🔹 AI & Frontend
+AI Integration: Uses by llm() for personalized, context-aware support.
 
-Trigger
-
-Suggestion
-
-###🔹 Walkers
-Application logic and flow:
-
-Authentication
-
-Mood logging
-
-Journaling
-
-Advice generation
-
-Graph traversal & trend analysis
-
-###🔹 AI Integration
-Uses by llm() for personalized, context-aware emotional support
-
-###🔹 Frontend Logic
-jac-client powered UI walkers
-
-Clean separation from backend logic
-
-Event-driven interaction model
+Frontend Logic: Event-driven interaction model via jac-client.
 
 ---
 
 ## 🤝 Contributing
-Contributions are welcome and encouraged!
+Contributions are welcome!
 
-Fork the repository
+Fork the repository.
 
-Create a feature branch
+Create a feature branch.
 
-Commit your changes
-
-Submit a pull request 🚀
+Commit changes and submit a pull request 🚀.
 
 ---
 
 ## 📄 License
 This project is licensed under the MIT License.
-See the LICENSE file for more details.
 
 ---
 
 ## 🎥 Demo Video
-🎬 Coming soon
-
-The demo will showcase:
-
-Mood logging
-
-AI-powered advice
-
-Emotion graph visualization
-
-Secure journaling workflows
+🎬 Coming soon The demo will showcase mood logging, AI advice, and emotion graph visualization.
 
 ---
 
-## 📚 Learn More
-Explore the Jac source files in this repository
-
-Refer to the official Jac documentation for language and graph concepts
-
----
-
-⭐ If you find this project useful or inspiring, please consider giving it a GitHub star!
+## ⭐ If you find this project useful, please consider giving it a GitHub star!
