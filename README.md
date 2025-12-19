@@ -67,7 +67,10 @@ MindMate-Harmony/
 │   ├── helpers.jac        # Helper functions
 │   └── constants.jac      # Application constants
 └── README.md              # Project documentation
-🚀 Getting Started
+
+---
+
+## 🚀 Getting Started
 1️⃣ Clone the Repository
 bash
 Copy code
@@ -82,7 +85,9 @@ Copy code
 jac run main.jac
 ✔️ This launches both the backend server and the frontend UI walkers.
 
-🧭 Usage Guide
+---
+
+## 🧭 Usage Guide
 Log moods and emotional intensity
 
 Add private journal entries
@@ -93,8 +98,10 @@ View mood trends and trigger insights
 
 Get real-time tips and weekly emotional plans
 
-🧩 Core Concepts Used
-🔹 Nodes
+---
+
+## 🧩 Core Concepts Used
+### 🔹 Nodes
 Core graph entities:
 
 User
@@ -109,7 +116,7 @@ Trigger
 
 Suggestion
 
-🔹 Walkers
+###🔹 Walkers
 Application logic and flow:
 
 Authentication
@@ -122,17 +129,19 @@ Advice generation
 
 Graph traversal & trend analysis
 
-🔹 AI Integration
+###🔹 AI Integration
 Uses by llm() for personalized, context-aware emotional support
 
-🔹 Frontend Logic
+###🔹 Frontend Logic
 jac-client powered UI walkers
 
 Clean separation from backend logic
 
 Event-driven interaction model
 
-🤝 Contributing
+---
+
+## 🤝 Contributing
 Contributions are welcome and encouraged!
 
 Fork the repository
@@ -143,11 +152,15 @@ Commit your changes
 
 Submit a pull request 🚀
 
-📄 License
+---
+
+## 📄 License
 This project is licensed under the MIT License.
 See the LICENSE file for more details.
 
-🎥 Demo Video
+---
+
+## 🎥 Demo Video
 🎬 Coming soon
 
 The demo will showcase:
@@ -160,9 +173,13 @@ Emotion graph visualization
 
 Secure journaling workflows
 
-📚 Learn More
+---
+
+## 📚 Learn More
 Explore the Jac source files in this repository
 
 Refer to the official Jac documentation for language and graph concepts
+
+---
 
 ⭐ If you find this project useful or inspiring, please consider giving it a GitHub star!
