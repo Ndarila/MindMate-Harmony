@@ -1,39 +1,53 @@
-🧠 MindMate Harmony (Jac Project)
-MindMate Harmony is an advanced Jac-based AI application inspired by LittleX, designed to support emotional well-being through intelligent mood tracking, journaling, and AI-powered supportive interactions.
+# 🧠 MindMate Harmony (Jac Project)
 
-Built with Jac walkers, nodes, and graph-based logic, MindMate Harmony demonstrates how AI, graph computing, and human-centered design can come together to promote mental wellness.
+MindMate Harmony is an advanced **Jac-based AI application** inspired by *LittleX*, designed to support **emotional well-being** through intelligent mood tracking, journaling, and AI-powered supportive interactions.
 
-✨ Key Features
-🔧 Backend (Jac Core)
-Graph-based modeling of:
-Users
-Moods
-Emotions
-Triggers
-Journal entries
-Suggestions
-Walkers handle:
-User login and session flow
-Mood logging with triggers
-Journal entry creation
-Mood trend analysis
-Emotion–trigger graph generation
-AI-powered supportive advice using by llm() functions
-Clean separation between logic (backend.jac) and API walkers (api.jac)
-🎨 Frontend (jac-client)
-Interactive UI walkers built with jac-client
-Supports:
-Mood logging (emoji/text-ready design)
-Secure journaling
-Insights timeline
-Visualizes:
-Mood frequency
-Trigger influence
-Emotional trends over time
-Delivers:
-Real-time supportive tips
-Weekly emotional wellness plans
-🗂️ Project Structure
+Built using **Jac’s object–spatial programming model**, MindMate Harmony demonstrates how **graph computing, AI, and human-centered design** can come together to promote mental wellness.
+
+---
+
+## ✨ Key Features
+
+### 🔧 Backend (Jac Core)
+- Graph-based modeling of:
+  - Users
+  - Moods
+  - Emotions
+  - Triggers
+  - Journal entries
+  - Suggestions
+- Walkers handle:
+  - User login & session flow
+  - Mood logging with trigger relationships
+  - Secure journal entry creation
+  - Mood trend analysis
+  - Emotion–trigger graph generation
+- 🤖 AI-powered supportive advice using `by llm()` functions
+- Clean separation of concerns:
+  - `backend.jac` → server coordination
+  - `api.jac` → API walker logic
+
+---
+
+### 🎨 Frontend (jac-client)
+- Interactive UI walkers built with **jac-client**
+- Supports:
+  - Mood logging (emoji / text–ready design)
+  - Secure personal journaling
+  - Insights timeline
+- Visualizes:
+  - Mood frequency
+  - Trigger influence
+  - Emotional trends over time
+- Delivers:
+  - Real-time supportive tips
+  - Weekly emotional wellness plans
+
+---
+
+## 🗂️ Project Structure
+
+```text
 MindMate-Harmony/
 ├── main.jac               # Application entry point
 ├── backend/
@@ -56,6 +70,7 @@ MindMate-Harmony/
 🚀 Getting Started
 1️⃣ Clone the Repository
 bash
+Copy code
 git clone https://github.com/Ndarila/MindMate-Harmony.git
 cd MindMate-Harmony
 2️⃣ Install Jac
@@ -63,65 +78,91 @@ Follow the official Jac documentation to set up your Jac environment.
 
 3️⃣ Run the Application
 bash
+Copy code
 jac run main.jac
 ✔️ This launches both the backend server and the frontend UI walkers.
 
 🧭 Usage Guide
 Log moods and emotional intensity
+
 Add private journal entries
+
 Receive AI-generated supportive advice
+
 View mood trends and trigger insights
+
 Get real-time tips and weekly emotional plans
+
 🧩 Core Concepts Used
 🔹 Nodes
-Define core entities:
+Core graph entities:
 
 User
+
 Mood
+
 JournalEntry
+
 Emotion
+
 Trigger
+
 Suggestion
+
 🔹 Walkers
-Handle application logic:
+Application logic and flow:
 
 Authentication
+
 Mood logging
+
 Journaling
+
 Advice generation
-Graph traversal and trend analysis
+
+Graph traversal & trend analysis
+
 🔹 AI Integration
 Uses by llm() for personalized, context-aware emotional support
 
 🔹 Frontend Logic
-
 jac-client powered UI walkers
+
 Clean separation from backend logic
+
 Event-driven interaction model
+
 🤝 Contributing
 Contributions are welcome and encouraged!
 
 Fork the repository
+
 Create a feature branch
+
 Commit your changes
+
 Submit a pull request 🚀
+
 📄 License
 This project is licensed under the MIT License.
 See the LICENSE file for more details.
 
 🎥 Demo Video
-Watch the demo of MindMate Harmony in action:
+🎬 Coming soon
 
-[Insert your video link here]
+The demo will showcase:
 
-Video Explanation
-This video showcases the key features of MindMate Harmony including mood logging, AI-powered advice, emotion graph visualization, and journaling.
+Mood logging
 
-It highlights how Jac's object-spatial programming and AI integration enable a seamless mental wellness application.
+AI-powered advice
+
+Emotion graph visualization
+
+Secure journaling workflows
 
 📚 Learn More
 Explore the Jac source files in this repository
-Refer to the official Jac documentation for language and graph concepts
-⭐ If you find this project useful or inspiring, consider giving it a GitHub star!
 
-21:20
+Refer to the official Jac documentation for language and graph concepts
+
+⭐ If you find this project useful or inspiring, please consider giving it a GitHub star!
