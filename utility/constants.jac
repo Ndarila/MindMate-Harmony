@@ -1,0 +1,1 @@
+glob APP_NAME = "Mindmate Harmony";
