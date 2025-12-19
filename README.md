@@ -1,158 +1,127 @@
-\# Mindmate Harmony - Jac Project
+🧠 MindMate Harmony (Jac Project)
+MindMate Harmony is an advanced Jac-based AI application inspired by LittleX, designed to support emotional well-being through intelligent mood tracking, journaling, and AI-powered supportive interactions.
 
+Built with Jac walkers, nodes, and graph-based logic, MindMate Harmony demonstrates how AI, graph computing, and human-centered design can come together to promote mental wellness.
 
-
-Mindmate Harmony is an advanced Jac application inspired by LittleX, designed to support emotional well-being through AI-powered mood tracking and supportive interactions.
-
-
-
-\## Features
-
-
-
-\### Backend:
-
-\- Uses Jac nodes to model emotions, triggers, activities, suggestions, and journal entries.
-
-\- Walkers log mood entries, update emotional graphs, and detect mood trends.
-
-\- AI-powered supportive advice generation via by llm() functions.
-
-
-
-\### Frontend:
-
-\- Interfaces for mood logging via emoji wheels, text, and voice inputs using jac-client.
-
-\- Secure journaling and insights timeline.
-
-\- Visualization of emotion-trigger-habit graphs to identify patterns and track progress.
-
-\- Real-time supportive tips and weekly plans delivered through spawned walkers.
-
-
-
-\## Project Structure
-
+✨ Key Features
+🔧 Backend (Jac Core)
+Graph-based modeling of:
+Users
+Moods
+Emotions
+Triggers
+Journal entries
+Suggestions
+Walkers handle:
+User login and session flow
+Mood logging with triggers
+Journal entry creation
+Mood trend analysis
+Emotion–trigger graph generation
+AI-powered supportive advice using by llm() functions
+Clean separation between logic (backend.jac) and API walkers (api.jac)
+🎨 Frontend (jac-client)
+Interactive UI walkers built with jac-client
+Supports:
+Mood logging (emoji/text-ready design)
+Secure journaling
+Insights timeline
+Visualizes:
+Mood frequency
+Trigger influence
+Emotional trends over time
+Delivers:
+Real-time supportive tips
+Weekly emotional wellness plans
+🗂️ Project Structure
 MindMate-Harmony/
-
-├── main.jac
-
+├── main.jac               # Application entry point
 ├── backend/
-
-│ ├── backend.jac
-
-│ └── api.jac
-
+│   ├── backend.jac        # Backend startup & coordination
+│   └── api.jac            # API walker implementations
 ├── frontend/
-
-│ ├── frontend.jac
-
-│ └── ui.jac
-
+│   ├── frontend.jac       # Frontend UI walker
+│   └── ui.jac             # UI components & interactions
 ├── models/
+│   ├── user.jac           # User node
+│   ├── mood.jac           # Mood node
+│   ├── journal.jac        # Journal entry node
+│   ├── emotion.jac        # Emotion node
+│   ├── trigger.jac        # Trigger node
+│   └── suggestion.jac     # Suggestion node
+├── utility/
+│   ├── helpers.jac        # Helper functions
+│   └── constants.jac      # Application constants
+└── README.md              # Project documentation
+🚀 Getting Started
+1️⃣ Clone the Repository
+bash
+git clone https://github.com/Ndarila/MindMate-Harmony.git
+cd MindMate-Harmony
+2️⃣ Install Jac
+Follow the official Jac documentation to set up your Jac environment.
 
-│ ├── user.jac
-
-│ ├── mood.jac
-
-│ ├── journal.jac
-
-│ ├── suggestion.jac
-
-│ ├── trigger.jac
-
-│ └── emotion.jac
-
-└── utility/
-
-├── helpers.jac
-
-└── constants.jac
-
-
-
-
-
-\## Getting Started
-
-1\. Clone this repository.
-
-2\. Install the Jac environment as per the Jac documentation.
-
-3\. Run the application:
-
-```bash
-
+3️⃣ Run the Application
+bash
 jac run main.jac
+✔️ This launches both the backend server and the frontend UI walkers.
 
-The backend server and frontend UI will launch.
+🧭 Usage Guide
+Log moods and emotional intensity
+Add private journal entries
+Receive AI-generated supportive advice
+View mood trends and trigger insights
+Get real-time tips and weekly emotional plans
+🧩 Core Concepts Used
+🔹 Nodes
+Define core entities:
 
+User
+Mood
+JournalEntry
+Emotion
+Trigger
+Suggestion
+🔹 Walkers
+Handle application logic:
 
+Authentication
+Mood logging
+Journaling
+Advice generation
+Graph traversal and trend analysis
+🔹 AI Integration
+Uses by llm() for personalized, context-aware emotional support
 
-Usage
+🔹 Frontend Logic
 
-Use the frontend UI to log moods, add journal entries, and view supportive advice.
+jac-client powered UI walkers
+Clean separation from backend logic
+Event-driven interaction model
+🤝 Contributing
+Contributions are welcome and encouraged!
 
+Fork the repository
+Create a feature branch
+Commit your changes
+Submit a pull request 🚀
+📄 License
+This project is licensed under the MIT License.
+See the LICENSE file for more details.
 
+🎥 Demo Video
+Watch the demo of MindMate Harmony in action:
 
-Visualize mood trends and emotional graphs.
+[Insert your video link here]
 
+Video Explanation
+This video showcases the key features of MindMate Harmony including mood logging, AI-powered advice, emotion graph visualization, and journaling.
 
+It highlights how Jac's object-spatial programming and AI integration enable a seamless mental wellness application.
 
-Receive real-time tips and weekly plans.
+📚 Learn More
+Explore the Jac source files in this repository
+Refer to the official Jac documentation for language and graph concepts
+⭐ If you find this project useful or inspiring, consider giving it a GitHub star!
 
-
-
-Key Components
-
-Nodes: Define core entities such as User, Mood, JournalEntry, Suggestion, Trigger, and Emotion.
-
-
-
-Walkers: Implement backend API abilities for user login, mood logging, journaling, advice retrieval, mood graphing, and trend detection.
-
-
-
-AI Integration: by llm() functions generate personalized supportive advice.
-
-
-
-Frontend: jac-client based UI walkers handle user interactions and display insights.
-
-
-
-Contribution
-
-Contributions are welcome! Please fork the repository and submit pull requests.
-
-
-
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-
-For more details, refer to the source Jac files and the official Jac documentation.
-
-
-
-
-
----
-
-
-
-\## \*\*Step 4: Commit and push to GitHub\*\*
-
-
-
-```powershell
-
-git add -A
-
-git commit -m "Added full MindMate-Harmony Jac project structure with code"
-
-git push origin main
-
+21:20
